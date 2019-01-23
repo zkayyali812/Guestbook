@@ -1,7 +1,7 @@
 apiVersion: compliance.mcm.ibm.com/v1alpha1
 kind: Compliance
 metadata:
-  name: compliance-prod
+  name: default-prod
   namespace: mcm
 spec:
   runtime-rules:

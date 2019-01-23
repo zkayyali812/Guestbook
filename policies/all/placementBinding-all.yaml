@@ -1,12 +1,12 @@
 apiVersion: mcm.ibm.com/v1alpha1
 kind: PlacementBinding
 metadata:
-  name: binding-all
+  name: default-binding-all
   namespace: mcm
 placementRef:
-  name: placement-all
+  name: default-placement-all
 subjects:
-- name: compliance-all
+- name: default-all
   kind: Compliance
 
 
