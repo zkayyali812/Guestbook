@@ -9,5 +9,4 @@ targetCluster:
       datacenter: oregon
   resourceSelector:
     type: cpu
-  compliances:
-  - devcpl
+  compliances: ""
