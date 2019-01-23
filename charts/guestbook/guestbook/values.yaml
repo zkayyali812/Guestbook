@@ -6,7 +6,7 @@ targetCluster:
   labelSelector:
     matchLabels:
       environment: Dev
+      datacenter: oregon
   resourceSelector:
     type: cpu
-  compliances:
-  - devcpl
+  compliances: ""

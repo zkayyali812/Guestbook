@@ -14,7 +14,7 @@ spec:
     - key: app
       operator: In
       values:
-      - guestbook-app
+      - guestbook
       - gbf
       - gbrm
       - gbrs
