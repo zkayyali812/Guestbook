@@ -4,5 +4,4 @@ metadata:
   name: default-placement-all
   namespace: mcm
 spec:
-  clusterLabels:{}
-              
+  clusterLabels: {}
