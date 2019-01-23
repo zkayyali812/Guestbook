@@ -1,0 +1,10 @@
+apiVersion: mcm.ibm.com/v1alpha1
+kind: PlacementPolicy
+metadata:
+  name: placement-all
+  namespace: mcm
+spec:
+  clusterLabels:
+    matchLabels:
+      cloud: IBM
+              

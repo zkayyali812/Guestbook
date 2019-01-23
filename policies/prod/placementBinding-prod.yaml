@@ -1,0 +1,16 @@
+apiVersion: mcm.ibm.com/v1alpha1
+kind: PlacementBinding
+metadata:
+  name: binding-prod
+  namespace: mcm
+placementRef:
+  name: placement-prod
+subjects:
+- name: compliance-prod
+  kind: Compliance
+
+
+
+
+
+              
