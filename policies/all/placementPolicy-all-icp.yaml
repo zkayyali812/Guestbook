@@ -7,4 +7,3 @@ spec:
   clusterLabels:
     matchLabels:
       vendor: ICP
-  

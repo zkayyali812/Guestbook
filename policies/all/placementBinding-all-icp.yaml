@@ -4,7 +4,7 @@ metadata:
   name: default-binding-all-icp
   namespace: mcm
 placementRef:
-  name: default-placement-all-ico
+  name: default-placement-all-icp
 subjects:
 - name: default-all-icp
   kind: Compliance
