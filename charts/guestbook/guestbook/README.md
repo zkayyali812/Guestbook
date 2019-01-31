@@ -1,4 +1,4 @@
-# Guestbook Ppplication Helm Chart
+# Guestbook Application Helm Chart
 Sample application that shows how to use IBM Mulcicloud Manager features and run the application across differnet Kubernetes enviroenment.
 
 ## Chart Details
