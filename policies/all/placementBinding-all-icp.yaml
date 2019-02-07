@@ -8,6 +8,8 @@ placementRef:
 subjects:
 - name: default-all-icp
   kind: Compliance
+- name: default-all-icp-informational
+  kind: Compliance
 
 
 
