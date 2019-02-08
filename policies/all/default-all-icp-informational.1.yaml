@@ -32,7 +32,7 @@ spec:
               - complianceType: "musthave" # at this level, it means if the role exists the rule is a musthave
                 policyRule:
                   apiGroups: ["core"]
-                  resources: ["pods",configmaps","deployments"]
+                  resources: ["pods","configmaps","deployments"]
                   verbs: ["get", "list", "watch","delete", "create", "update", "patch"]
         object-templates: 
           - complianceType: "musthave"
