@@ -8,7 +8,7 @@ spec:
     - apiVersion: policy.mcm.ibm.com/v1alpha1
       kind: Policy
       metadata:
-        name: policy-all-icp
+        name: default-all-icp-informational
         labels:
           targets: all-icp
       spec:
