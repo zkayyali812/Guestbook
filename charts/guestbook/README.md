@@ -7,15 +7,15 @@ Following 3 charts are wrapper for deployment and service in k8s example, alread
 3. gbrs
 
 Following 1 chart is for mcm-application
-1. gbapp
+1. guestbook
 
 ## What's New
 1. Change to PlacementPolicy and PlacementBinding
 2. Different PlacementPolicy/PlacementBidning for Different Deployable in Application
 
 ## Usage
-0. Clone the repo, package app charts with ```helm package gbapp```
-1. Load application charts into ICP with ```cloudctl catalog load-chart --archive gbapp-0.1.0.tgz```
-2. Install application chart with GUI or CLI ```helm install gbapp -n <release-name> --tls ```
+0. Clone the repo, package app charts with ```helm package guestbook```
+1. Load application charts into ICP with ```cloudctl catalog load-chart --archive guestbook-0.1.0.tgz```
+2. Install application chart with GUI or CLI ```helm install guestbook -n <release-name> --tls ```
 3. Update placement related values to redeploy application
 4. Delete helm release to deregister application ```helm delete <release-name> --purge --tls```
